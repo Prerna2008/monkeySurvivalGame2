@@ -75,10 +75,10 @@ function draw() {
     monkey.depth=5;
     fill("black");
     textSize(24);
-    text("Score="+score,windowWidth-550,windowHeight-550);
+    text("Score="+score,windowWidth-550,windowHeight-750);
     fill("black");
     textSize(24);
-    text("SurvivalTime="+survivalTime,windowWidth-750,windowHeight-550);
+    text("SurvivalTime="+survivalTime,windowWidth-750,windowHeight-750);
     monkey.collide(ground);
   }
   
